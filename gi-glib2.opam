@@ -20,4 +20,4 @@ depends: [
   "configurator"
   "gobject-introspection"
   "gi-bindings-generator"
-  ]
+]

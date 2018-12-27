@@ -18,8 +18,7 @@
   (action  (run ${<} -ocamlc ${OCAMLC}))))
 
 (rule
- ((targets (
-	    Ascii_type.ml Ascii_type.mli
+ ((targets (Ascii_type.ml Ascii_type.mli
 	    Bookmark_file_error.ml Bookmark_file_error.mli
 	    Checksum_type.ml Checksum_type.mli
 	    Convert_error.ml Convert_error.mli
