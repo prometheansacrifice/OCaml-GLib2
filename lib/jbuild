@@ -21,6 +21,8 @@
 (rule
  ((targets (Ascii_type.ml Ascii_type.mli
 	    Bookmark_file_error.ml Bookmark_file_error.mli
+            Bytes.ml Bytes.mli
+            ; Byte_array.ml Byte_array.mli
 	    Checksum_type.ml Checksum_type.mli
 	    Convert_error.ml Convert_error.mli
 	    Date_dmy.ml Date_dmy.mli
@@ -61,6 +63,8 @@
 	    Time_type.ml Time_type.mli
 	    Time_zone.ml Time_zone.mli
             Variant.ml Variant.mli
+            Variant_type.ml Variant_type.mli
+            Variant_class.ml Variant_class.mli
 	    ))
   (deps    (../generator/gen.exe))
   (action  (run ${<} -o ${@}))))
