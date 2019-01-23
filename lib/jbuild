@@ -6,6 +6,7 @@
   (libraries (ctypes ctypes.foreign memcpy))
   (c_names         (dyn_load_constants_stubs))
   (c_flags         (:include c_flags.sexp))
+  (flags (-w -33-26))
   (c_library_flags (:include c_library_flags.sexp))
   (ocamlopt_flags (-ccopt ("-Wl,-no-as-needed")))
  )
