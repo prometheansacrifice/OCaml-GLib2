@@ -1,0 +1,16 @@
+EXCLUDE_QUERY_DIR
+B /Users/manas/.opam/default/lib/bytes
+B /Users/manas/.opam/default/lib/ctypes
+B /Users/manas/.opam/default/lib/integers
+B /Users/manas/.opam/default/lib/memcpy
+B /usr/local/lib/ocaml
+B /usr/local/lib/ocaml/threads
+B ../_build/default/lib/.GLib.objs/byte
+S /Users/manas/.opam/default/lib/bytes
+S /Users/manas/.opam/default/lib/ctypes
+S /Users/manas/.opam/default/lib/integers
+S /Users/manas/.opam/default/lib/memcpy
+S /usr/local/lib/ocaml
+S /usr/local/lib/ocaml/threads
+S .
+FLG -open GLib -w -40
