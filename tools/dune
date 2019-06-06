@@ -1,8 +1,3 @@
-(jbuild_version 1)
-
 (executables
- (
-   (names (list_targets))
-    (libraries (gobject-introspection gi-bindings-generator))
-  )
-)
+   (names list_targets)
+    (libraries gobject-introspection gi-bindings-generator))
